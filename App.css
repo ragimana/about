@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+}
+.highlight {
+  color:whitesmoke; /* Change the text color */
+  font-weight: bold;
+  border: 1px solid orange;
+  padding: 10px;
+  margin-left: 89px; /* Make the text bold */
+  /* Add any additional styles you want */
+}
+
+
+.icon{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+header {
+ background-color:DodgerBlue;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding: 20px;
+  font-weight: 600;
+  text-decoration: wavy;
+  height: 20px;
+}
+header h1{
+  font-weight: 600;
+  text-decoration: wavy; 
+}
+
+.pic{
+  width: 10%;
+  height: 10%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color:tomato;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  align-items:center;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.icon-container img {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.icon-container img[alt="whatsapp"] {
+  filter: grayscale(100%);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+   background-color:mediumvioletred;;
+}
+
+.icon-container {
+  margin-top: 10px; /* Adjust as needed */
+  display:flex;
+  justify-content: center;
+}
+
+.icon-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon-container ul li {
+  display:flex;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.icon-container ul li img {
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+}
+
+p {
+  margin-top: 10px; /* Adjust as needed */
+}
+
+
+
+
